@@ -1,0 +1,34 @@
+.header{
+    width: 100%;
+    height: 80px;
+
+}
+
+.searchInput{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 90px;
+    transition: all 1s;
+    background: white;
+    width: 350px;
+    height: 38px;
+    border-radius: 10px;
+}
+.searchInputActive{
+    position: absolute;
+    visibility: visible;
+    opacity: 1;
+   top: 25px;
+    left: 90px;
+    transition: all 1s;
+}
+.input{
+    border: 0 !important;
+
+}
+.input:focus{
+    outline: 0 !important;
+    border: 0 !important;
+}
